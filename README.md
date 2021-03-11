@@ -11,12 +11,12 @@ rmcj.dev
 
  * Если у вас apache:
  
- Все будет работать с коробки(.htaccess уже настроен)
+    Все будет работать с коробки(.htaccess уже настроен)
  
  * Если у вас nginx:
 
-Прописать в конфиг:
+  Прописать в конфиг:
 
-location / {
-    try_files $uri $uri/ /index.php?$query_string;
-}
+   location / {
+      try_files $uri $uri/ /index.php?$query_string;
+   }
