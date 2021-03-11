@@ -24,3 +24,4 @@ rmcj.dev
 
 
 * роуты можно задать в index.php
+Используется роутер https://github.com/bramus/router
