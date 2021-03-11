@@ -21,3 +21,6 @@ rmcj.dev
    location / {
       try_files $uri $uri/ /index.php?$query_string;
    }
+
+
+* роуты можно задать в index.php
